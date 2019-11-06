@@ -72,8 +72,8 @@ function playRound() {
         return ("It's a tie!");
     }
 }
-//function to declare winner
-function gameWin() {
+//function to declare the games winner.
+function winGame() {
     if (playersScore < computersScore) {
         console.log("You've lost the game");
         return ("You've lost the game")
@@ -83,5 +83,5 @@ function gameWin() {
         return ("You win the game!")
     }
 }
-gameWin()
-
+winGame()
+//testcommit
